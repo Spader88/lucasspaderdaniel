@@ -8,9 +8,9 @@ ul {
     list-style: none;
 }
 body {
-    background-image: url(./assets/bg.jpg);
+    background-image: url(./assets/ven.gif);
     background-position: top center;
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #121214;
 }
@@ -26,12 +26,12 @@ header{
 }
 
 header div{
-    width: 160px;
+    width: 400px;
     margin: auto;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #0c9b07 0%, #d8e0de 50.52%, #cc0707 100%);
     border-radius: 50%;
     display: flex;
-    padding: 4px;
+    padding: 8px;
     transition: transform .3s;
 }
 
@@ -46,7 +46,7 @@ header div img {
 }
 
 main {
-    max-width: 580px;
+    max-width: 700px;
     width: 90%;
     margin: 32px auto;
 
@@ -59,13 +59,14 @@ main {
 section {
     color: white;
     background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
-    padding-top: 4px;
+    padding-top: 8px;
     border-radius: 10px;
+    font-size: 30px;
 }
 
 section div {
 
-    background-color: #2A2634;
+    background-color: #0b0b0e;
     padding: 32px;
     padding-top: 24px;
     border-radius: 8px;
@@ -74,11 +75,13 @@ section div {
 }
 section h2 {
     letter-spacing: -0.47px;
+    
 }
 
 section p {
     letter-spacing: -0.18px;
-    color: #A1A1AA;
+    color: #51a14e;
+    font-size: 25px;
 
 }
 
