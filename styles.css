@@ -10,7 +10,7 @@ ul {
 body {
     background-image: url(./assets/ven.gif);
     background-position: top center;
-    background-size: cover;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #121214;
 }
@@ -26,9 +26,9 @@ header{
 }
 
 header div{
-    width: 400px;
+    width: 210px;
     margin: auto;
-    background-image: linear-gradient(90deg, #0c9b07 0%, #d8e0de 50.52%, #cc0707 100%);
+    background-image: linear-gradient(90deg,green 0%, white 50%, red 100%);
     border-radius: 50%;
     display: flex;
     padding: 8px;
@@ -46,7 +46,7 @@ header div img {
 }
 
 main {
-    max-width: 700px;
+    max-width: 580px;
     width: 90%;
     margin: 32px auto;
 
@@ -58,10 +58,10 @@ main {
 
 section {
     color: white;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #ce6510 100%);
     padding-top: 8px;
     border-radius: 10px;
-    font-size: 30px;
+   
 }
 
 section div {
@@ -75,13 +75,13 @@ section div {
 }
 section h2 {
     letter-spacing: -0.47px;
-    
+    color: white
 }
 
 section p {
     letter-spacing: -0.18px;
     color: #51a14e;
-    font-size: 25px;
+    
 
 }
 
