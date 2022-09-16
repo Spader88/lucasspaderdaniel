@@ -8,17 +8,13 @@ ul {
     list-style: none;
 }
 body {
-    background: url(./assets/ven.gif) no-repeat center center fixed;
-    
+    background-image: url(./assets/senna.JPEG);
     background-position: top center;
-   
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #121214;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    
 }
 
 body * {
@@ -34,7 +30,7 @@ header{
 header div{
     width: 210px;
     margin: auto;
-    background-image: linear-gradient(90deg,green 0%, white 50%, red 100%);
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #ce6510 100%);
     border-radius: 50%;
     display: flex;
     padding: 8px;
