@@ -8,11 +8,17 @@ ul {
     list-style: none;
 }
 body {
-    background-image: url(./assets/ven.gif);
+    background: url(./assets/ven.gif) no-repeat center center fixed;
+    
     background-position: top center;
-    background-size: 100% auto;
+   
     background-repeat: no-repeat;
     background-color: #121214;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 body * {
